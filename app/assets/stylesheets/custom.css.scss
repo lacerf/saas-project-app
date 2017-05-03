@@ -5,12 +5,12 @@
   text-align: center;
 
   a {
-      color: #000 !important;
+      color: #fff !important;
       margin: 0 !important;
       padding: 5px!important;
   }
   a:hover, a:focus {
-    color: #fff !important;
+    color: #000 !important;
   }
 }
 
@@ -121,7 +121,20 @@
   }
 }
 
+.fa.fa-rocket {
+  background: #fff;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: red;
+  padding: 6px;
+}
+
 .logout {
   padding-left: 0;
-  padding-right: 1px;
+}
+
+.navbar.navbar-static-top {
+  background: #000;
+  color: #fff !important;
+  padding-bottom: 5px;
 }
